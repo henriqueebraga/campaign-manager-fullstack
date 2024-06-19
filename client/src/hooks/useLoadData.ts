@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import tree from '../tree.json';
+// import tree from '../tree.json';
 import { Campaign } from '../types/types';
 
 const useLoadData = () => {
