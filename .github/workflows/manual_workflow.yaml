@@ -1,0 +1,55 @@
+name: Manual Pipeline Trigger
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        type: choice
+        options: 
+          - staging
+          - production
+      preferredTheme:
+        description: 'Frontend theme'
+        type: choice
+        default: "light"
+        options:
+          - "dark"
+          - "light"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      ENVIRONMENT: ${{ github.event.inputs.environment }}
+      THEME: ${{ github.event.inputs.preferredTheme }}
+      SECRETE_URL: ${{ vars.MY_SECRET_URL }}
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20.x
+      
+      - name: Print environment variable
+        run: |
+          echo "Deploying to environment $ENVIRONMENT"
+          echo "Selected theme $THEME"
+          echo "Secret URL: $SECRETE_URL"
+          echo "Also accessible with Secret URL: ${{ env.SECRET_URL }}"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: run build
+        run: npm run build
+
+      - name: Deploy to environment
+        run: |
+          echo "Deploying to ${{ vars.MY_SECRET_URL }}"
+

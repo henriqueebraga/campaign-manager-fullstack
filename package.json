@@ -1,0 +1,16 @@
+{
+  "name": "campaign-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "npm --prefix client start",
+    "build:client": "npm --prefix client run build",
+    "test:client": "npm --prefix client test",
+    "start:server": "npm --prefix server start",
+    "build:server": "npm --prefix server run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

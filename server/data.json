@@ -1,0 +1,259 @@
+{
+    "id": 1,
+    "set": {
+      "type": "SET",
+      "name": "Root",
+      "elements": [
+        {
+          "type": "SET",
+          "name": "Restricted",
+          "elements": [
+            {
+              "type": "SET",
+              "name": "Set: Stackable Campaigns",
+              "elements": [
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 297,
+                  "name": "Campaign 297"
+                }
+              ],
+              "groupId": 4
+            },
+            {
+              "type": "SET",
+              "name": "Set: Exclusive Campaigns",
+              "elements": [
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 234,
+                  "name": "Campaign 234"
+                }
+              ],
+              "groupId": 3
+            }
+          ],
+          "groupId": 2
+        },
+        {
+          "type": "SET",
+          "name": "Universal",
+          "elements": [
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 308,
+              "name": "Campaign 308"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 272,
+              "name": "Campaign 272"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 78,
+              "name": "Campaign 78"
+            },
+            {
+              "type": "SET",
+              "name": "Temporary Campaigns",
+              "elements": [
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 284,
+                  "name": "Campaign 284"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 311,
+                  "name": "Campaign 311"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 322,
+                  "name": "Campaign 322"
+                },
+                {
+                  "type": "SET",
+                  "name": "Urgent Campaigns",
+                  "elements": [
+                    {
+                      "type": "CAMPAIGN",
+                      "campaignId": 373,
+                      "name": "Campaign 373"
+                    },
+                    {
+                      "type": "CAMPAIGN",
+                      "campaignId": 378,
+                      "name": "Campaign 378"
+                    },
+                    {
+                      "type": "SET",
+                      "name": "The most urgent Campaigns",
+                      "elements": [
+                        {
+                          "type": "CAMPAIGN",
+                          "campaignId": 492,
+                          "name": "Campaign 492"
+                        },
+                        {
+                          "type": "CAMPAIGN",
+                          "campaignId": 722,
+                          "name": "Campaign 722"
+                        },
+                        {
+                          "type": "CAMPAIGN",
+                          "campaignId": 836,
+                          "name": "Campaign 836"
+                        }
+                      ],
+                      "groupId": 8
+                    }
+                  ],
+                  "groupId": 9
+                }
+              ],
+              "groupId": 10
+            },
+            {
+              "type": "SET",
+              "name": "Abandoned Campaigns",
+              "elements": [
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 773,
+                  "name": "Campaign 773"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 822,
+                  "name": "Campaign 822"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 829,
+                  "name": "Campaign 829"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 832,
+                  "name": "Campaign 832"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 834,
+                  "name": "Campaign 834"
+                }
+              ],
+              "groupId": 7
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 844,
+              "name": "Campaign 844"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 845,
+              "name": "Campaign 845"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 858,
+              "name": "Campaign 858"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 859,
+              "name": "Campaign 859"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 880,
+              "name": "Campaign 880"
+            },
+            {
+              "type": "SET",
+              "name": "Future Campaigns",
+              "elements": [
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 883,
+                  "name": "Campaign 883"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 884,
+                  "name": "Campaign 884"
+                },
+                {
+                  "type": "CAMPAIGN",
+                  "campaignId": 885,
+                  "name": "Campaign 885"
+                }
+              ],
+              "groupId": 6
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 894,
+              "name": "Campaign 894"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1039,
+              "name": "Campaign 1039"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1040,
+              "name": "Campaign 1040"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1204,
+              "name": "Campaign 1204"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1205,
+              "name": "Campaign 1205"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1206,
+              "name": "Campaign 1206"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1340,
+              "name": "Campaign 1340"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1348,
+              "name": "Campaign 1348"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1906,
+              "name": "Campaign 1906"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 1993,
+              "name": "Campaign 1993"
+            },
+            {
+              "type": "CAMPAIGN",
+              "campaignId": 2202,
+              "name": "Campaign 2202"
+            }
+          ],
+          "groupId": 5
+        }
+      ],
+      "groupId": 1
+    }
+  }
+  

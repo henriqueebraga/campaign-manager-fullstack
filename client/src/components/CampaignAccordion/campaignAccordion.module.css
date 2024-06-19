@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    margin: 20px 0;
+    @media screen and (min-width: 768px) {
+        width: 800px;
+    }
+}
+.error_message {
+    color: rgb(230, 89, 8);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
