@@ -9,6 +9,7 @@ This repository contains a full stack web application built using modern technol
 * Server-side functionality with Node.js and Express
 * Containerization with Docker and Docker Compose
 * CI/CD with GitHub Actions
+* Coverage tests with Jest
 
 <span style="font-size: 2em;">Tech Stack</span>
 # Client
