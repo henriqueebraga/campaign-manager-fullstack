@@ -11,15 +11,17 @@ This repository contains a full stack web application built using modern technol
 * CI/CD with GitHub Actions
 
 <span style="font-size: 2em;">Tech Stack</span>
-Client
+- Client
 * React
 * TypeScript
 * Jest
 * CSS Modules
-Server
+
+- Server
 * Node.js
 * Express
-DevOps
+
+- DevOps
 * Docker
 * Docker Compose
 * GitHub Actions
